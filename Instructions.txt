@@ -1,0 +1,25 @@
+As discussed we're going to have you do some skills tests as listed below.  We can give you an FTP login, but if you have your own PHP environment/website or have XAMPP installed (great dev tool anyway) that would be better in this case since we have all sorts of firewall/VPN rules that make it complicated.
+ 
+
+The attached data dump has two tables (part of our punchout ecommerce system).  You can assume v7 or 8 for PHP.  Please use procedural style coding and mysqli functions in PHP when querying the data in [1] below.
+ 
+
+[1] Do a basic CRUD for the products table, it can be a simple table interface.  Display the category name in the column (it does not have to be editable, just display it since it's in another table - products links to categories by category_level1_code).  Make the header columns sortable links so if you click "product_title" it sorts A-Z, and if you click it again, Z-A.  You can use whatever output you want (bootstrap, etc.), that’s less important than actual parsing of data.
+ 
+
+[2] I want you to parse the attached XML (cxml_po_sample.xml) with the built in PHP simpleXML functions.
+ 
+
+Parse each element and attribute into a variable and then put it into an multi-dimensional array and sort alphabetically by the element names.
+ 
+
+Output all elements of the array in a loop.
+ 
+
+[3] Convert the cXML PO to JSON and then loop over that the same way, but using built in PHP JSON functions vs. simplexml. 
+ 
+
+Make sure you comment your code (more comments are better!).
+ 
+
+Let us know approximately how long this took you to do as a metric on our side.
